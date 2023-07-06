@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Manager",
+    "description": "Manage and close unused tabs.",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "storage",
+      "alarms",
+      "http://localhost:5000/"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "broom.jpeg",
+        "48": "broom.jpeg",
+        "128": "broom.jpeg"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "broom.jpeg",
+      "48": "broom.jpeg",
+      "128": "broom.jpeg"
+    }
+  }
+  
